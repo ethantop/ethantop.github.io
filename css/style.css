@@ -583,10 +583,10 @@ header nav ul li a:hover {
 }
 /* index layout */
 #container {
+  float: right;
   -webkit-flex: 1;
   width: 95%;
-  margin-left: 400px;
-  overflow: hidden;
+  margin: 0;
 }
 @media only screen and (min-width: 768px) {
   #container {
@@ -605,13 +605,13 @@ header nav ul li a:hover {
 }
 #main {
   margin: 1em 0 0;
+  float: right;
   line-height: 1.8;
 }
 @media only screen and (min-width: 1024px) {
   #main {
-    margin: 2em 0 0;
     width: 75%;
-    float: left;
+    float: right;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;
@@ -946,13 +946,13 @@ article .article-content {
   color: #413f3f;
   font-size: 100%;
 }
-article .article-content:before,
-article .article-content:after {
+float left:before,
+float left:after {
   content: "";
   display: block;
   clear: both;
 }
-article .article-content .kb {
+float left .kb {
   padding: 0.1em 0.6em;
   border: 1px solid #ccc;
   background-color: code-color;
@@ -966,56 +966,56 @@ article .article-content .kb {
   line-height: 1.5;
   white-space: nowrap;
 }
-article .article-content h1,
-article .article-content h2 {
+float left h1,
+float left h2 {
   font-size: 180%;
   line-height: 1.2em;
   padding-bottom: 0.3em;
   margin-top: 1.5em;
   border-bottom: 2px solid #dbdbdb;
 }
-article .article-content h3 {
+float left h3 {
   font-size: 140%;
   line-height: 1em;
   margin-top: 1.3em;
 }
-article .article-content h4,
-article .article-content h5,
-article .article-content h6 {
+float left h4,
+float left h5,
+float left h6 {
   font-size: 140%;
 }
-article .article-content h1,
-article .article-content h2,
-article .article-content h3,
-article .article-content h4,
-article .article-content h5,
-article .article-content h6 {
+float left h1,
+float left h2,
+float left h3,
+float left h4,
+float left h5,
+float left h6 {
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-article .article-content h1 >code,
-article .article-content h2 >code,
-article .article-content h3 >code,
-article .article-content h4 >code,
-article .article-content h5 >code,
-article .article-content h6 >code {
+float left h1 >code,
+float left h2 >code,
+float left h3 >code,
+float left h4 >code,
+float left h5 >code,
+float left h6 >code {
   color: #a3a3a3;
 }
-article .article-content hr {
+float left hr {
   border: 1px solid #dbdbdb;
 }
-article .article-content strong {
+float left strong {
   font-weight: bold;
 }
-article .article-content em {
+float left em {
   font-style: italic;
 }
-article .article-content acronym,
-article .article-content abbr {
+float left acronym,
+float left abbr {
   border-bottom: 1px dotted;
 }
-article .article-content blockquote {
+float left blockquote {
   border-left: 0.2em solid #2ca6cb;
   margin: 0.65em 0 0.65em 1%;
   padding-left: 1%;
@@ -1023,46 +1023,46 @@ article .article-content blockquote {
   font-size: 100%;
   color: #808080;
 }
-article .article-content blockquote footer {
+float left blockquote footer {
   background: #fafafa;
   padding: 0;
   margin: 0;
   font-size: 80%;
   line-height: 1em;
 }
-article .article-content blockquote cite {
+float left blockquote cite {
   font-style: italic;
   padding-left: 0.5em;
 }
-article .article-content ul,
-article .article-content ol {
+float left ul,
+float left ol {
   padding-left: 1.5em;
   font-size: 100%;
   padding-top: 0.7em;
 }
 @media only screen and (min-width: 768px) {
-  article .article-content ul,
-  article .article-content ol {
+  float left ul,
+  float left ol {
     padding-left: 1.5em;
   }
 }
-article .article-content ul li {
+float left ul li {
   list-style: disc;
   text-align: match-parent;
 }
-article .article-content ol li {
+float left ol li {
   list-style-type: decimal;
 }
-article .article-content dl dt {
+float left dl dt {
   font-weight: blod;
 }
-article .article-content ul li>code,
-article .article-content ol li>code,
-article .article-content p code,
-article .article-content strong code,
-article .article-content em code,
-article .article-content table th>code,
-article .article-content table td>code {
+float left ul li>code,
+float left ol li>code,
+float left p code,
+float left strong code,
+float left em code,
+float left table th>code,
+float left table td>code {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
   background: #eee;
   color: #d14;
@@ -1075,44 +1075,44 @@ article .article-content table td>code {
   -webkit-border-radius: 0.25em;
   border-radius: 0.25em;
 }
-article .article-content p {
+float left p {
   line-height: 1.5;
   margin-top: 0.7em;
 }
 @media only screen and (min-width: 1024px) {
-  article .article-content p {
+  float left p {
     margin-top: 1em;
   }
 }
-article .article-content img,
-article .article-content video,
-article .article-content figure img {
+float left img,
+float left video,
+float left figure img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
   padding-top: 0.5em;
 }
 @media only screen and (min-width: 1024px) {
-  article .article-content img,
-  article .article-content video,
-  article .article-content figure img {
+  float left img,
+  float left video,
+  float left figure img {
     padding-top: 0.7em;
   }
 }
-article .article-content .img-topic,
-article .article-content .img-logo {
+float left .img-topic,
+float left .img-logo {
   display: none;
 }
-article .article-content .img-center {
+float left .img-center {
   display: block;
   margin: auto;
 }
-article .article-content .img-shadow {
+float left .img-shadow {
   -webkit-box-shadow: 0 0 2px 3px #ddd;
   box-shadow: 0 0 2px 3px #ddd;
 }
-article .article-content figcaption,
-article .article-content .caption {
+float left figcaption,
+float left .caption {
   display: block;
   margin-top: 0.3em;
   color: #808080;
@@ -1120,8 +1120,8 @@ article .article-content .caption {
   font-size: 0.9em;
   padding-left: 1.3em;
 }
-article .article-content figcaption:before,
-article .article-content .caption:before {
+float left figcaption:before,
+float left .caption:before {
   content: '\f040';
   position: absolute;
   font: 0.9em "FontAwesome";
@@ -1129,15 +1129,15 @@ article .article-content .caption:before {
   left: 0;
   top: 0.3em;
 }
-article .article-content .video-container {
+float left .video-container {
   position: relative;
   padding-top: 56%;
   height: 0;
   overflow: hidden;
 }
-article .article-content .video-container iframe,
-article .article-content .video-container object,
-article .article-content .video-container embed {
+float left .video-container iframe,
+float left .video-container object,
+float left .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -1145,35 +1145,35 @@ article .article-content .video-container embed {
   height: 100%;
   margin-top: 0;
 }
-article .article-content table {
+float left table {
   max-width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin-top: 1em;
 }
-article .article-content table th {
+float left table th {
   font-weight: bold;
   border-bottom: 2px solid #dbdbdb;
   padding: 0.5em;
   line-height: 1.3em;
 }
-article .article-content table td {
+float left table td {
   border-bottom: 1px solid #dbdbdb;
   padding: 0.5em;
   line-height: 1.3em;
 }
-article .article-content .pullquote {
+float left .pullquote {
   text-align: left;
   width: 45%;
   margin: 0;
   border: none;
 }
-article .article-content .left {
+float left .left {
   margin-left: 0.5em;
   margin-right: 1em;
   float: left;
 }
-article .article-content .right {
+float left .right {
   margin-right: 0.5em;
   margin-left: 1em;
   float: right;
@@ -1483,6 +1483,7 @@ section.comment {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   border: 1px solid #ddd;
+  float: right;
 }
 .toc-article strong {
   padding: 0.3em 0;
@@ -1496,10 +1497,54 @@ section.comment {
   list-style-type: decimal;
   margin: 0.5em 0;
 }
+.toc-article1 {
+  background: #eee;
+  margin: 1em 0 0 2em;
+  padding: 1em;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.toc-article1 strong {
+  padding: 0.3em 0;
+}
+.toc-article1 ul li {
+  list-style: disc;
+  text-align: match-parent;
+  margin: 0.5em 0;
+}
+.toc-article1 ol li {
+  list-style-type: decimal;
+  margin: 0.5em 0;
+}
+#toc1 {
+  overflow-y: auto;
+  width: 320px;
+  height: 600px;
+  background-image: url("/img/xiaobai.jpg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  line-height: 1.6em;
+  font-size: 0.8em;
+  float: left;
+  margin: 20px 0 0 30px;
+}
+#toc1 .toc {
+  padding: 0;
+}
+#toc1 .toc li {
+  list-style-type: none;
+}
+#toc1 .toc-child {
+  padding-left: 1.5em;
+  padding-top: 0;
+}
 #toc {
+  position: flxed;
   line-height: 1.3em;
   font-size: 0.8em;
   float: right;
+  margin: 0 0 0 0;
 }
 #toc .toc {
   padding: 0;
